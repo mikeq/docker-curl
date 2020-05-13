@@ -11,7 +11,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Build and Push node 12
+      - name: Build and Push mallister/docker
         uses: mr-smithers-excellent/docker-build-push@v3
         with:
           image: mallister/docker
